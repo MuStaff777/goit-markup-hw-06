@@ -374,9 +374,26 @@
                     </li>
                 </ul>
             </div>
-            <form class="form-link"></form>
+            <form class="form">
+                <label class="form-label"></label>
                 <p class="form-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
-                    <label class="form-label"></label>
+                <div class="form-container">
+                    <div class="form-input">
+                        <input type="text" class="form-input-link" name="email" required
+                        pattern="[a-zA-Zа-яА-ЯіІїЇ]+"
+                        title="xxx-xxx-xx-xx"
+                        name="user_name"
+                        placeholder="E-mail" class="form-input-link-container" type="email">
+                    </div>
+                    <div class="form-icon-container">
+                        <button class="form-icon-btn" type="button">Підписатися
+                        <svg class="form-icon">
+                            <use href="./images/link/sprite.svg#icon-telegram"></use>
+                        </svg>
+                        </button>
+                    </div>
+                </div>
+            </form> 
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -396,7 +413,7 @@
                         name="user_name"
                         placeholder="">
                         <svg lang="en" aria-label="name icon" class="modal-form-input-icon">
-                            <use href="./images/form/sprite.svg#icon-name"></use>
+                            <use href="./images/link/sprite.svg#icon-name"></use>
                         </svg>
                     </div>
                 </label>
@@ -409,7 +426,7 @@
                         name="user_phone"
                         placeholder="">
                         <svg lang="en" aria-label="number icon" class="modal-form-input-icon">
-                            <use href="./images/form/sprite.svg#icon-number"></use>
+                            <use href="./images/link/sprite.svg#icon-number"></use>
                         </svg>
                     </div>
                 </label>
@@ -422,7 +439,7 @@
                         name="user_name"
                         placeholder="">
                         <svg lang="en" aria-label="post icon" class="modal-form-input-icon">
-                            <use href="./images/form/sprite.svg#icon-post"></use>
+                            <use href="./images/link/sprite.svg#icon-post"></use>
                         </svg>
                     </div>
                 </label>
@@ -433,7 +450,7 @@
                 <label class="modal-form-check-field">
                     <input type="checkbox" class="modal-form-check" name="user_policy" required>
                     <svg class="modal-form-own-checkbox">
-                        <use class="modal-form-own-checkbox-icon" href="./images/form/sprite.svg#icon-check"></use>
+                        <use class="modal-form-own-checkbox-icon" href="./images/link/sprite.svg#icon-check"></use>
                     </svg>
                     <span class="modal-form-desc">Погоджуюсь з розсилкою та приймаю&nbsp;<a class="modal-form-check-link" href="">Умови договору</a></span>
                 </label>
